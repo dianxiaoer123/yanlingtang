@@ -119,11 +119,8 @@ body {
   height: 100%;
 }
 .swiper-slide {
-  text-align: center;
+  /* text-align: center;
   font-size: 18px;
-  background: #fff;
-
-  /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -135,9 +132,167 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   -webkit-align-items: center;
-  align-items: center;
+  align-items: center; */
 }
+.swiper-slide img{
+  display: block;
+  width:100%;
+}
+.swiper-pagination-bullet-active{
+  background:#9e3e3a;
+}
+.indexWrap{
+  width:100%;
+  background: url(../images/bgreapt.png);
+}
+.mainTitle{
+  padding-top: 20px;
+}
+.mainTitle img{
+  display: block;
+  width:250px;
+  margin:0px auto;
+}
+.mainBg{
+  margin-top: 20px;
+  width: 100%;
+  background:url(../images/rbg.png) no-repeat;
+  background-size: 100% 100%;
+  height:360px;
+}
+.videoBox{
+  padding:0px 10px;
+}
+.videoBox video{
+  width:100%;
+  height:340px;
+}
+.wordCont{
+  padding:10px 20px 10px 0px;
+  margin-top: 25px;
+}
+.wordCont p{
+  font-size: 14px;
+  line-height: 30px;
+  text-indent: 30px;
+}
+
+.outframe .framekk{
+  margin:0px auto;
+}
+.bannerCont{
+  margin-top: 20px;
+  padding:0px 30px;
+}
+.swiper-button-next, .swiper-button-prev{
+  top:260px;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+  background-image:url(../images/leftrow.png);
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+  background-image:url(../images/rightrow.png);
+}
+.contPar{
+  margin-top: 25px;
+}
+.contPar p{
+  font-size: 14px;
+  line-height: 25px;
+  text-indent: 30px;
+}
+.tsrightImg img{
+  width:100%;
+}
+.tsBox{
+  /* height:500px; */
+  margin-top: 30px;
+}
+.tsLeftBox p{
+  font-size: 16px;
+  font-weight: bold;
+}
+.tsLeftBox p i{
+  font-style: normal;
+  color:#c60000;
+  font-size: 22px;
+}
+.btnbg{
+  display: block;
+  width:90%;
+  height:60px;
+  line-height: 60px;
+  background:url(../images/btn.png) no-repeat;
+  background-size: 100% 100%;
+  color:#333;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  margin:0px auto;
+  margin-top: 15px;
+}
+.tsLeftBox{
+  padding:0px 20px;
+}
+.tsrightImg{
+  margin-top: 20px;
+}
+
 @media screen and (min-width:320px){
+
+  .bannerCont {
+    margin-top: 20px;
+    padding: 0px 10px;
+}
+  .mainBg1{
+    width:100%;
+    height:450px;
+    background: url(../images/kbg2.png) no-repeat;
+    background-size: 100% 100%;
+    padding-top: 5px;
+  }
+  .swiper-button-next, .swiper-button-prev {
+     display: none;
+}
+  .tipPos{
+    position: absolute;
+    bottom: 5px;
+    left:5px;
+    width:70px;
+    height: 25px;
+    line-height: 25px;
+    background:rgba(0,0,0,0.6);
+    color:white;
+    font-size: 12px;
+    text-align: center;
+  }
+  .nameBox{
+    clear: both;
+    display: block;
+    width:80px;
+    height: 30px;
+    line-height: 30px;
+    background: url(../images/namebg.png) no-repeat;
+    background-size: 100% 100%;
+    color:white;
+    text-align: left;
+    text-indent: 20px;
+    margin:0px auto;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .mainBg{
+    margin-top: 20px;
+    width: 100%;
+    background:url(../images/kbg2.png) no-repeat;
+    background-size: 100% 100%;
+    height:700px;
+  }
+  .wordCont p{
+    font-size: 12px;
+    line-height: 25px;
+    text-indent: 25px;
+  }
    .mobileHeader{
      width:100%;
      display: block;
@@ -149,8 +304,129 @@ body {
    .pcHeader{
      display: none;
    }
+   .mainTitle img{
+    display: block;
+    width:250px;
+    margin:0px auto;
+  }
+  .wordCont {
+    padding: 0px 0px 0px 0px;
+    margin-top: 5px;
+  }
+ .videoBox video {
+    width: 100%;
+    height: 160px;
+  }
+  .framekk{
+    position: relative;
+    width: 80px;
+    height: 90px;
+    background: url(../images/kkbgg.png) no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content:center;
+    align-items:Center;
+  }
+  .framekk img{
+    width:70px;
+  }
+  .contPar p {
+    font-size: 12px;
+    line-height: 25px;
+    text-indent: 30px;
+  }
+   .wordCont p {
+  font-size: 12px;
+  line-height: 28px;
+  text-indent: 30px;
+   }
+}
+
+
+
+@media screen and (min-width:375px){
+  .videoBox video {
+    width: 100%;
+    height: 260px;
+}
+  .contPar p {
+    font-size: 12px;
+    line-height: 25px;
+    text-indent: 30px;
+}
+  .swiper-button-next, .swiper-button-prev {
+    top: 320px;
+    display: block;
+}
+  .wordCont p {
+    font-size: 14px;
+    line-height: 25px;
+    text-indent: 25px;
+   }
+}
+@media screen and (min-width:375px){
+  .wordCont p {
+    font-size: 12px;
+    line-height: 28px;
+    text-indent: 30px;
+   }
 }
 @media screen and (min-width:750px){
+  .contPar p {
+    font-size: 14px;
+  
+}
+  .bannerCont {
+    margin-top: 20px;
+    padding: 0px 30px;
+}
+  .swiper-button-next, .swiper-button-prev {
+    top: 260px;
+}
+  .tipPos{
+    position: absolute;
+    bottom: 5px;
+    left:5px;
+    width:140px;
+    height: 30px;
+    line-height: 30px;
+    background:rgba(0,0,0,0.6);
+    color:white;
+    font-size: 14px;
+    text-align: center;
+  }
+  .nameBox{
+    clear: both;
+    display: block;
+    width:150px;
+    height: 40px;
+    line-height: 40px;
+    background: url(../images/namebg.png) no-repeat;
+    background-size: 100% 100%;
+    color:white;
+    text-align: left;
+    text-indent: 40px;
+    margin:0px auto;
+    margin-top: 10px;
+  }
+  .framekk{
+    position: relative;
+    width: 150px;
+    height: 170px;
+    background: url(../images/kkbgg.png) no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content:center;
+    align-items:Center;
+  }
+  .framekk img{
+    width:140px;
+  }
+  .wordCont p {
+    font-size: 16px;
+    line-height: 30px;
+    text-indent: 30px;
+   }
   .mobileHeader{
     display: none
   }
@@ -176,9 +452,34 @@ body {
     font-size: 14px;
     width:80px;
   }
+  .mainTitle img{
+    display: block;
+    width:550px;
+    margin:0px auto;
+  }
+  .videoBox video {
+    width: 100%;
+    height: 340px;
+}
 
 }
+
+
 @media screen and (min-width:1024px){
+  .mainBg1{
+    width:100%;
+    height:450px;
+    background: url(../images/rbg11.png) no-repeat;
+    background-size: 100% 100%;
+  }
+  .videoBox video {
+    width: 100%;
+    height: 340px;
+}
+  .wordCont {
+    padding: 10px 20px 10px 0px;
+    margin-top: 25px;
+}
   .pcHead{
     height: 150px;
   }
@@ -195,8 +496,28 @@ body {
     font-size: 16px;
     width:100px;
   }
+  .mainBg{
+    margin-top: 20px;
+    width: 100%;
+    background:url(../images/rbg.png) no-repeat;
+    background-size: 100% 100%;
+    height:360px;
+  }
+  .wordCont p{
+    font-size: 14px;
+    line-height: 28px;
+    text-indent: 30px;
+  }
 }
 @media screen and (min-width:1201px){
+  .bannerCont{
+    margin-top: 60px;
+  }
+  .wordCont p{
+    font-size: 14px;
+    line-height: 30px;
+    text-indent: 30px;
+  }
   .mainBox{
     width:1200px;
   }
